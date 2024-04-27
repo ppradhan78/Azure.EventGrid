@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E7FCF67-2841-4027-ABE0-94A614291664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9CE6E180-F7BB-4F06-B50E-6296D011483F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventGrid.API.Data", "src\MicrosoftAzure.EventGrid.API.Data\MicrosoftAzure.EventGrid.API.Data.csproj", "{77544827-5352-43DB-A23E-8D9B7ABC481D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventGrid.API", "src\MicrosoftAzure.EventGrid.API\MicrosoftAzure.EventGrid.API.csproj", "{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventGrid.Test", "test\MicrosoftAzure.EventGrid.Test\MicrosoftAzure.EventGrid.Test.csproj", "{6047D770-3218-43F5-B542-BEC2FF8DE1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77544827-5352-43DB-A23E-8D9B7ABC481D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77544827-5352-43DB-A23E-8D9B7ABC481D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77544827-5352-43DB-A23E-8D9B7ABC481D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77544827-5352-43DB-A23E-8D9B7ABC481D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6047D770-3218-43F5-B542-BEC2FF8DE1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6047D770-3218-43F5-B542-BEC2FF8DE1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6047D770-3218-43F5-B542-BEC2FF8DE1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6047D770-3218-43F5-B542-BEC2FF8DE1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77544827-5352-43DB-A23E-8D9B7ABC481D} = {0E7FCF67-2841-4027-ABE0-94A614291664}
+		{C93810B0-3C14-47DB-8908-FF4DEA7BB4E0} = {0E7FCF67-2841-4027-ABE0-94A614291664}
+		{6047D770-3218-43F5-B542-BEC2FF8DE1A7} = {9CE6E180-F7BB-4F06-B50E-6296D011483F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4B13F4E-37B1-47C5-8C00-E9945F6F07EB}
+	EndGlobalSection
+EndGlobal
